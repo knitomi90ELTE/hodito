@@ -1,0 +1,29 @@
+[
+	{
+		"name": "agyagbanya",
+		"workers": "15",
+		"stone": "38",
+		"wood": "57",
+		"clay": "0",
+		"uniqueProperty": "7",
+		"category": "MANUFACTURE"
+	},
+	{
+		"name": "barakk",
+		"workers": "15",
+		"stone": "88",
+		"wood": "44",
+		"clay": "44",
+		"uniqueProperty": "40",
+		"category": "BUILDING"
+	},
+	{
+		"name": "dragakobanya",
+		"workers": "15",
+		"stone": "19",
+		"wood": "95",
+		"clay": "29",
+		"uniqueProperty": "7",
+		"category": "MANUFACTURE"
+	}
+]

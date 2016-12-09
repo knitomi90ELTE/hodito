@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import java.net.URL?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hodito.controller.LayoutController"
+            styleClass="border-pane">
+    <top>
+        <HBox styleClass="top">
+            <fx:include source="header.fxml" fx:id=""/>
+        </HBox>
+    </top>
+    <left>
+        <VBox styleClass="left">
+            <fx:include source="building.fxml"/>
+        </VBox>
+    </left>
+    <center></center>
+    <right></right>
+    <bottom></bottom>
+
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>
+</BorderPane>
+

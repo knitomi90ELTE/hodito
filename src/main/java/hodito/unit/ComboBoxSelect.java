@@ -1,0 +1,32 @@
+package hodito.unit;
+
+public class ComboBoxSelect<T> {
+    private T key;
+    private String value;
+
+    public ComboBoxSelect(T key, String value) {
+	this.key = key;
+	this.value = value;
+    }
+
+    @Override
+    public String toString() {
+	return value;
+    }
+
+    public T getKey() {
+	return key;
+    }
+
+    public void setKey(T key) {
+	this.key = key;
+    }
+
+    public String getValue() {
+	return value;
+    }
+
+    public void setValue(String value) {
+	this.value = value;
+    }
+}

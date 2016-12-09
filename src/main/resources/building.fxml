@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<GridPane fx:controller="hodito.controller.BuildingController"
+          xmlns:fx="http://javafx.com/fxml" styleClass="root">
+    <padding>
+        <Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+
+    <Label text="Ház"  GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextField fx:id="haz" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="input-count"></TextField>
+
+    <Label text="Barakk"  GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="barakk" GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="input-count"></TextField>
+
+    <Label text="Tanya"  GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <TextField fx:id="tanya" GridPane.columnIndex="1" GridPane.rowIndex="3" styleClass="input-count"></TextField>
+
+    <Label text="Könyvtár"  GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <TextField fx:id="konyvtar" GridPane.columnIndex="1" GridPane.rowIndex="4" styleClass="input-count"></TextField>
+
+    <Label text="Raktár"  GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+    <TextField fx:id="raktar" GridPane.columnIndex="1" GridPane.rowIndex="5" styleClass="input-count"></TextField>
+
+    <Label text="Fatelep"  GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+    <TextField fx:id="fatelep" GridPane.columnIndex="1" GridPane.rowIndex="6" styleClass="input-count"></TextField>
+
+    <Label text="Kőbánya"  GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+    <TextField fx:id="kobanya" GridPane.columnIndex="1" GridPane.rowIndex="7" styleClass="input-count"></TextField>
+
+    <Label text="Fémbánya"  GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+    <TextField fx:id="fembanya" GridPane.columnIndex="1" GridPane.rowIndex="8" styleClass="input-count"></TextField>
+
+    <Label text="Agyagbánya"  GridPane.columnIndex="0" GridPane.rowIndex="9"/>
+    <TextField fx:id="agyagbanya" GridPane.columnIndex="1" GridPane.rowIndex="9" styleClass="input-count"></TextField>
+
+    <Label text="Drágakőbánya"  GridPane.columnIndex="0" GridPane.rowIndex="10"/>
+    <TextField fx:id="dragakobanya" GridPane.columnIndex="1" GridPane.rowIndex="10" styleClass="input-count"></TextField>
+
+    <Label text="Őrtorony"  GridPane.columnIndex="0" GridPane.rowIndex="11"/>
+    <TextField fx:id="ortorony" GridPane.columnIndex="1" GridPane.rowIndex="11" styleClass="input-count"></TextField>
+
+    <Label text="Kocsma"  GridPane.columnIndex="0" GridPane.rowIndex="12"/>
+    <TextField fx:id="kocsma" GridPane.columnIndex="1" GridPane.rowIndex="12" styleClass="input-count"></TextField>
+
+    <Label text="Templom"  GridPane.columnIndex="0" GridPane.rowIndex="13"/>
+    <TextField fx:id="templom" GridPane.columnIndex="1" GridPane.rowIndex="13" styleClass="input-count"></TextField>
+
+    <Button fx:id="start" onAction="#onAction" GridPane.columnIndex="0" GridPane.rowIndex="14">Számol</Button>
+</GridPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ComboBox?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="hodito.controller.CharacterController">
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15"/>
+    </padding>
+
+    <Label text="Hektár" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="hektar" GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="input-count"></TextField>
+
+    <Label text="Faj" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <ComboBox fx:id="faj" promptText="-- Válassz fajt --" GridPane.columnIndex="1" GridPane.rowIndex="1" ></ComboBox>
+
+    <Label text="Személyiség" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+    <ComboBox fx:id="szemelyiseg" promptText="-- Válassz személyiséget --" GridPane.columnIndex="2" GridPane.rowIndex="1"></ComboBox>
+</GridPane>
